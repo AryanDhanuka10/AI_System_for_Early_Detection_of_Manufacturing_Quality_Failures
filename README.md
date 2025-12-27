@@ -1,0 +1,1 @@
+# AI_System_for_Early_Detection_of_Manufacturing_Quality_Failures

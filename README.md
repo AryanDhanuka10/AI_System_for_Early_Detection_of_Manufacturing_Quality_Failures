@@ -2,7 +2,7 @@
 # 🏭 AI System for Early Detection of Manufacturing Quality Failures
 
 <p align="center">
-  <img src="assets/hero_image.png"  width="100%">
+  <img src="assets/hero_image.png" alt="Manufacturing AI Quality Inspection" width="100%">
 </p>
 
 > **Predict defects before they happen. Reduce scrap, rework, and downtime using Hybrid AI.**

@@ -2,17 +2,23 @@ import os
 
 PROJECT_NAME = "manufacturing_quality_ai"
 
-structure = [
-    "data/raw",
+folders = [
+    "data/raw/images",
+    "data/raw/sensors",
     "data/processed",
-    "data/external",
-    "models",
+    "data/hitl/pending",
+    "models/cnn",
+    "models/sensor",
+    "models/tabular",
+    "models/optimized",
+    "reports/figures",
     "notebooks",
     "src/data",
     "src/features",
     "src/models",
     "src/inference",
     "src/api",
+    "src/monitoring",
     "src/utils",
     "configs",
     "logs",
@@ -25,31 +31,27 @@ files = [
     "Dockerfile",
     "dvc.yaml",
     ".gitignore",
-    "src/__init__.py",
-    "src/data/data_loader.py",
-    "src/features/feature_engineering.py",
-    "src/models/cnn_model.py",
-    "src/models/time_series_model.py",
-    "src/models/tabular_model.py",
-    "src/models/ensemble.py",
-    "src/inference/predict.py",
+    "configs/config.yaml",
     "src/api/main.py",
-    "src/utils/logger.py",
-    "configs/config.yaml"
+    "src/inference/predict.py",
+    "src/models/cnn.py",
+    "src/models/sensor.py",
+    "src/models/ensemble.py",
+    "src/monitoring/drift.py",
+    "src/utils/logger.py"
 ]
 
-def create_project():
+def create_structure():
     os.makedirs(PROJECT_NAME, exist_ok=True)
     os.chdir(PROJECT_NAME)
 
-    for folder in structure:
-        os.makedirs(folder, exist_ok=True)
+    for f in folders:
+        os.makedirs(f, exist_ok=True)
 
     for file in files:
-        with open(file, "w") as f:
-            f.write("")
+        open(file, "w").close()
 
-    print("✅ Project structure created successfully")
+    print("✅ Industry-grade project structure ready")
 
 if __name__ == "__main__":
-    create_project()
+    create_structure()

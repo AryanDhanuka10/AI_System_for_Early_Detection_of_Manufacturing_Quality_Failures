@@ -1,17 +1,36 @@
-fastapi
-uvicorn
-pydantic
+# Core
 numpy
 pandas
 scikit-learn
 xgboost
+joblib
+
+# Deep Learning
 torch
 torchvision
 opencv-python
+
+# Explainability
+shap
+grad-cam
+
+# Backend
+fastapi
+uvicorn
+pydantic
+python-multipart
+
+# MLOps
+dvc
+evidently
+mlflow
+
+# Optimization
+onnx
+onnxruntime
+
+# Utilities
 matplotlib
 seaborn
-joblib
-dvc
-pyyaml
-python-multipart
 tqdm
+pyyaml

@@ -1,7 +1,9 @@
 
 # 🏭 AI System for Early Detection of Manufacturing Quality Failures
 
-![Manufacturing AI Quality Inspection](assets/hero_image.png)
+<p align="center">
+  <img src="assets/hero_image.png" alt="Manufacturing AI Quality Inspection" width="100%">
+</p>
 
 > **Predict defects before they happen. Reduce scrap, rework, and downtime using Hybrid AI.**
 
@@ -234,5 +236,3 @@ GitHub: https://github.com/AryanDhanuka10
 ## ⭐ If you find this project useful
 Give it a ⭐ on GitHub — it helps a lot!
 ```
-
----

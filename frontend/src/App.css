@@ -1,0 +1,98 @@
+/* Global animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Apply animations */
+div {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.bg-slate-800 {
+  animation: slideInLeft 0.4s ease-out;
+}
+
+.lg\:col-span-2 {
+  animation: slideInRight 0.4s ease-out;
+}
+
+/* Loading state */
+button:disabled {
+  animation: pulse 2s infinite;
+}
+
+/* Smooth transitions */
+button {
+  transition: all 0.2s ease;
+}
+
+input[type="radio"] {
+  accent-color: #3b82f6;
+}
+
+/* Hover effects */
+label:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease;
+}
+
+/* Custom scrollbar for preview */
+pre {
+  scrollbar-width: thin;
+  scrollbar-color: #475569 #1e293b;
+}
+
+pre::-webkit-scrollbar {
+  width: 6px;
+}
+
+pre::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+pre::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 3px;
+}
+
+pre::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}

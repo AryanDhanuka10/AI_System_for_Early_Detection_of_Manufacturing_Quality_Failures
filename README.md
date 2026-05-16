@@ -230,7 +230,6 @@ Factories often run on limited hardware.
 **Aryan Dhanuka**  
 B.Tech | AI / ML / Deep Learning  
 GitHub: https://github.com/AryanDhanuka10
-
 ---
 
 ## ⭐ If you find this project useful

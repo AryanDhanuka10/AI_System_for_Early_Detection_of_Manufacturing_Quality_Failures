@@ -234,4 +234,6 @@ GitHub: https://github.com/AryanDhanuka10
 
 ## ⭐ If you find this project useful
 Give it a ⭐ on GitHub — it helps a lot!
-```
+
+---
+
